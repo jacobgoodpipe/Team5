@@ -1,5 +1,5 @@
 h1 {
-  margin: 70px;
+  margin-top: 30px;
 }
 td {
   text-align: left;
@@ -7,7 +7,6 @@ td {
   font-size: 20px;
   font-family: Georgia;
   padding: 10px;
-
 }
 nav {
   display: flex;
@@ -53,9 +52,11 @@ nav a:after {
   }
 }
 img {
-  width:500px;
-  height:300px;
-  margin-top: 50px;
+  width:800px;
+  height:500px;
+  margin-top: 20px;
+  border-color: forestgreen;
+  border-width: 1px;
 }
 .center {
   display: block;
