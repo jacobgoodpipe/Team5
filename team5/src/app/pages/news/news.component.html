@@ -1,0 +1,13 @@
+<div class="news-container">
+  <ng-container *ngFor="let a of newsArticles$ | async">
+    <div class="article">
+      <img class="news-img" [src]="a.urlToImage" alt="news-image">
+      <div class="article-title">
+      {{a.title}}
+      </div>
+      <div>
+        <a class="read-button" href="{{a.url}}">Read More</a>
+      </div>
+    </div>
+  </ng-container>
+</div>
