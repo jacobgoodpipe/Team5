@@ -1,1 +1,35 @@
-<p>buy works!</p>
+
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="assets/js/buy.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+<div class="topnav">
+    <a class="active" href="home">Home</a>
+    <a href="sell">Sell</a>
+    <a href="signup">Signup</a>
+    <a href="about">About</a>
+</div>
+
+<h1>
+    Purchase Carbon
+</h1>
+ 
+Market Price: <input #marketPrice type="text" id="marketPrice"><br>
+Number of Units: <input #numOfUnits type="text" id="numOfUnits"><br>
+Trading Fee (set price): $<span #tradeFee id="tradeFee">5.75</span><br>
+Total Amount = $<input #totalAmount id="totalAmount"><br>
+<button (click)="calcTotal()" class="button" id="buySubmit">Calculate Total</button>
+
+
+
+<footer>
+    Brought to you by the Folks at Ourside
+</footer>
+
+</body>
+
+
+</html>
