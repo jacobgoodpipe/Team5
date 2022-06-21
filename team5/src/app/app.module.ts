@@ -10,6 +10,7 @@ import { BuyComponent } from './pages/buy/buy.component';
 import { SellComponent } from './pages/sell/sell.component';
 import { NewsComponent } from './pages/news/news.component';
 import {HttpClientModule} from '@angular/common/http';
+import { LearningComponent } from './pages/learning/learning.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {HttpClientModule} from '@angular/common/http';
     SignUpComponent,
     BuyComponent,
     SellComponent,
-    NewsComponent
+    NewsComponent,
+    LearningComponent
   ],
   imports: [
     BrowserModule,
