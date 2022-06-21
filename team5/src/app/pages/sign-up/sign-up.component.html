@@ -1,27 +1,33 @@
-<form action="login.component.html" method="post">
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email"><br><br>
+<body class="container">
+    <div class="header">OurSide | Join OurSide</div>
+    <div class="sign-up">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
 
-    <label for="pswd">Password:</label><br>
-    <input type="password" id="pswd" name="pswd"><br><br>
+        <label for="pswd">Password:</label><br>
+        <input type="password" id="pswd" name="pswd"><br><br>
 
-    <label for="province">Province/Territory:</label><br>
-    <select>
-        <option value="AB">Alberta</option>
-        <option value="BC">British Columbia</option>
-        <option value="MB">Manitoba</option>
-        <option value="NB">New Brunswick</option>
-        <option value="NL">Newfoundland and Labrador</option>
-        <option value="NS">Nova Scotia</option>
-        <option value="ON">Ontario</option>
-        <option value="PE">Prince Edward Island</option>
-        <option value="QC">Quebec</option>
-        <option value="SK">Saskatchewan</option>
-        <option value="NT">Northwest Territories</option>
-        <option value="NU">Nunavut</option>
-        <option value="YT">Yukon</option>
-    </select>	
+        <label for="cpswd">Confirm Password:</label><br>
+        <input type="password" id="cpswd" name="cpswd"><br><br>
 
-    <br><br>
-    <input type="submit" value="Sign-up">
-</form>
+        <label for="province">Province/Territory:</label><br>
+        <select>
+            <option value="AB">Alberta</option>
+            <option value="BC">British Columbia</option>
+            <option value="MB">Manitoba</option>
+            <option value="NB">New Brunswick</option>
+            <option value="NL">Newfoundland and Labrador</option>
+            <option value="NS">Nova Scotia</option>
+            <option value="ON">Ontario</option>
+            <option value="PE">Prince Edward Island</option>
+            <option value="QC">Quebec</option>
+            <option value="SK">Saskatchewan</option>
+            <option value="NT">Northwest Territories</option>
+            <option value="NU">Nunavut</option>
+            <option value="YT">Yukon</option>
+        </select>	
+
+        <br><br>
+        <input type="submit" value="Sign-up" [routerLink]="['/login']">
+    </div>
+</body>

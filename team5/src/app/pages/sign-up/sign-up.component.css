@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows:  1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+.header{
+    border-bottom: solid blue 5px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 20px;
+    color: #00b7ff;
+    font-size:60px;
+    text-align:center;
+    width: 90%;
+}
+
+.sign-up{
+    font-family:'Arial';
+    text-align:center;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #63A537;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    width: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
