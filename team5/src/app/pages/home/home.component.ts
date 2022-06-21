@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   price = '20';
-  credits = '1';
   amount = '2';
   volume = '3,214,140';
   dailyRange = '149.21';
