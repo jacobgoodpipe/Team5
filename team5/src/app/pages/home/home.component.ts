@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   price = '20';
-  credits = '';
-  amount = '';
-  volume = '';
-  dailyRange = '';
-  longRange = '';
+  credits = '1';
+  amount = '2';
+  volume = '3';
+  dailyRange = '4';
+  longRange = '5';
 
   constructor() { }
 
