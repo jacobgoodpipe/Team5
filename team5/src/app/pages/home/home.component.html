@@ -1,13 +1,13 @@
 <img src="https://www.protocol.com/media-library/stock-market-up-arrow.jpg?id=24808026&width=1245&quality=85&coordinates=28%2C0%2C29%2C0&height=700"
 class="center">
 <br> <br>
-<h1 class="price"> $20 </h1>
+<h1 class="price"> ${{ price }} </h1>
 <nav>
   <a routerLink="/buy">Buy</a>
   <a routerLink="/sell">Sell</a>
 </nav>
-<h2> Number of Credits: </h2>
-<h2> Amount: </h2>
-<h2> Volume: </h2>
-<h2> Daily Range: </h2>
-<h2> 52 Week Range: </h2>
+<h2> Number of Credits: {{ credits }}</h2>
+<h2> Amount: {{ amount }}</h2>
+<h2> Volume: {{ volume }}</h2>
+<h2> Daily Range: {{ dailyRange }}</h2>
+<h2> 52 Week Range: {{ longRange }}</h2>

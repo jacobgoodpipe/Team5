@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  price = '20';
+  credits = '';
+  amount = '';
+  volume = '';
+  dailyRange = '';
+  longRange = '';
 
   constructor() { }
 
