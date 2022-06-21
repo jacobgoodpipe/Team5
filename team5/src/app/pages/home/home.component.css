@@ -5,7 +5,7 @@ td {
   font-family: Georgia;
   padding: 10px;
 }
-nav {
+nav  {
   display: flex;
   justify-content: center;
 }
