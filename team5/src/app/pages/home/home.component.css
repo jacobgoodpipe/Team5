@@ -70,4 +70,19 @@ img {
 table, td, th {
   border: 1px solid;
 }
+.topnav {
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  margin-bottom: 100px;
+  min-height:100%;
+}
+h1 {
+  margin-top: 30px;
+  font-family:'Oswald';
+  color: #63A537;
+  font-size: 70px;
+
+}
 

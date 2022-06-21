@@ -12,16 +12,16 @@ export class BuyComponent implements OnInit {
   @ViewChild('marketPrice') marketPrice: ElementRef
   @ViewChild('numOfUnits') numOfUnits: ElementRef
   @ViewChild('tradeFee') tradeFee: ElementRef
-  @ViewChild('totalAmount') totalAmount: ElementRef 
+  @ViewChild('totalAmount') totalAmount: ElementRef
 
 
   constructor() { }
 
   ngOnInit(): void {
   }
-  
-  calcTotal(){  
-    var marketPrice = this.marketPrice.nativeElement.value;
+
+  calcTotal(){
+    var marketPrice = 20;
     var numOfUnits = this.numOfUnits.nativeElement.value;
     var tradeFee = 5.75;
 

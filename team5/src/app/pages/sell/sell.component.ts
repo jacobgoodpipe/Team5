@@ -21,7 +21,7 @@ export class SellComponent implements OnInit {
   }
 
   calcTotal(){
-    var marketPrice = this.marketPrice.nativeElement.value;
+    var marketPrice = 20;
     var numOfUnits = this.numOfUnits.nativeElement.value;
     var tradeFee = 5.75;
 
