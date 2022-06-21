@@ -7,20 +7,21 @@
   }
 
   .header{
-    border-bottom: solid blue 5px;
+    border-bottom: solid green 5px;
+    font-family:'Oswald';
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
     padding: 20px;
-    color: #00b7ff;
+    color: #63A537;
     font-size:60px;
     text-align:center;
     width: 90%;
   }
 
   .login{
-    font-family:'Arial';
+    font-family:'Oswald';
     text-align:center;
     font-size: 30px;
     border-style: solid;
